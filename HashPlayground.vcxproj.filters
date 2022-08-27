@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="CudaSource.cu">
+      <Filter>CudaLogic</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel.cu">
+      <Filter>CudaLogic</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HashServer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="json11.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CudaHeader.cuh">
+      <Filter>CudaLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.cuh">
+      <Filter>CudaLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA256.cuh">
+      <Filter>CudaLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="httplib.h">
+      <Filter>HttpServer</Filter>
+    </ClInclude>
+    <ClInclude Include="HashServer.h" />
+    <ClInclude Include="json11.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CudaLogic">
+      <UniqueIdentifier>{fe99d9e8-040c-4f38-b34a-a18a41447993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpServer">
+      <UniqueIdentifier>{f6962cc8-acb4-4c2b-873f-3a5c8cb455cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{a8248f9c-f1a0-490b-acb1-d8ab23c3937c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

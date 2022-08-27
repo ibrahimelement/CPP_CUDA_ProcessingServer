@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file CudaSource.cu...
+  
+  C:\Users\hughm\source\repos\HashPlayground\HashPlayground>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Users\hughm\Documents\VCPKG\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\CudaSource.cu.obj "C:\Users\hughm\source\repos\HashPlayground\HashPlayground\CudaSource.cu" -Xcompiler -arch=sm_75 
+cl : Command line warning D9002: ignoring unknown option '-arch=sm_75'
+c:\users\hughm\source\repos\hashplayground\hashplayground\SHA256.cuh(129): warning : variable "S" was declared but never referenced
+  
+cl : Command line warning D9002: ignoring unknown option '-arch=sm_75'
+  cudasource.cu
+cl : Command line warning D9002: ignoring unknown option '-arch=sm_75'
+c:\users\hughm\source\repos\hashplayground\hashplayground\cudasource.cu(207): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\hughm\source\repos\hashplayground\hashplayground\cudasource.cu(307): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  HashPlayground.vcxproj -> C:\Users\hughm\source\repos\HashPlayground\x64\Debug\HashPlayground.exe
